@@ -366,7 +366,7 @@ FROM hamsters hm
 Создать класс с Инкапсуляцией методов и наследованием по диаграмме
 
 ```python
-# src/model/animal_base.py
+# AnimalRegistrationSystem/src/model/animal_base.py
 import datetime
 
 
@@ -389,7 +389,7 @@ class PackedAnimal(Animal):
 ```
 
 ```python
-# src/model/home_animal.py
+# AnimalRegistrationSystem/src/model/home_animal.py
 import datetime
 
 from src.model.animal_base import HomeAnimal
@@ -412,7 +412,7 @@ class Hamster(HomeAnimal):
 ```
 
 ```python
-# src/model/packed_animal.py
+# AnimalRegistrationSystem/src/model/packed_animal.py
 import datetime
 
 from src.model.animal_base import PackedAnimal
